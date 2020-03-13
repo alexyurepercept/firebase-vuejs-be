@@ -29,7 +29,8 @@
     "jest": "=v24.9.0",
     "tslint": "^5.12.0",
     "typescript": "^3.2.2",
-    "ts-jest": "=v23.10.5"
+    "ts-jest": "=v23.10.5",
+    "firebase-tools": "^7.15.0"
   },
   "private": true
 }

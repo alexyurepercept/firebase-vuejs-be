@@ -6,10 +6,7 @@ jobs:
     working_directory: ~/firebase-auth-be
     steps:
       - checkout
-
-      - run:
-          name: Install Firebase CLI
-          command: npm install -g firebase-tools
+      # Download and cache dependencies
       - run:
           name: Install Dependencies
           command: cd functions && npm install
@@ -21,7 +18,7 @@ jobs:
           command: cd functions && npm build
       - run:
           name: Firebase Deploy
-          command: firebase deploy --token "$FIREBASE_TOKEN"
+          command: ./functions/node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
 workflows:
   version: 2
   build_and_deploy:
