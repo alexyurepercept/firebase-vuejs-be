@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  deployprod:
     docker:
       - image: circleci/node:10.16.0
     working_directory: ~/firebase-auth-be
