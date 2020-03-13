@@ -3,7 +3,7 @@ jobs:
   deployprod:
     docker:
       - image: circleci/node:10.16.0
-    working_directory: ~/firebase-auth-be
+    working_directory: ~/firebase-vuejs-be
     steps:
       - checkout
       # Download and cache dependencies

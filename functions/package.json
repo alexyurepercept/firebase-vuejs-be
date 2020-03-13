@@ -1,5 +1,5 @@
 {
-  "name": "functions",
+  "name": "firebase-vuejs-be",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "build": "tsc",
