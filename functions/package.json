@@ -24,7 +24,6 @@
   "devDependencies": {
     "@types/cors": "^2.8.6",
     "@types/jest": "=v23.3.10",
-    "@types/node": "=v10.12.12",
     "firebase-functions-test": "^0.1.6",
     "jest": "=v24.9.0",
     "tslint": "^5.12.0",
